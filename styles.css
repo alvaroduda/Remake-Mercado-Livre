@@ -1,0 +1,86 @@
+    body{
+        background-color: rgb(255, 229, 0);
+        color: rgb(41, 46, 120);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+
+    li{
+        display: inline-block;
+        margin: 20px;
+    }
+
+    h2{
+        font-size: 54px;
+        line-height: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    a{
+        color: rgb(41, 46, 120);
+    }
+
+
+    a:hover{
+        color: blue;
+        transition: 0.4s;
+    }
+
+
+    .imagem-principal{
+        height: 417px;
+
+    }
+
+    p{
+        font-size: 21px;
+        line-height: 26px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 500px;
+    }
+
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    input{
+        margin-top: 18px;
+        height: 18px;
+        padding: 14px;
+        border-radius: 20px;
+        border: none;
+        font-size: 16px;
+    }
+
+    form [type="submit"]{
+        height: 50px;
+        width:50%;
+        background-color: rgb(41, 46, 120);
+        color: white;
+        font-weight: bold;
+    }
+
+    form [type="submit"]:hover{
+        cursor:pointer;
+        background-color: blue;
+        transition: 0.4s;
+    }
+
